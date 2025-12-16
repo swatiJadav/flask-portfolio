@@ -1,57 +1,37 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-}
-nav {
-    background-color: #1e3a8a;
-    padding: 15px;
-    text-align: center;
-}
-nav a {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg, #667eea, #764ba2);
     color: white;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
 }
-nav a:hover {
-    text-decoration: underline;
-}
+
 .container {
     text-align: center;
-    padding: 60px;
+    padding-top: 100px;
 }
+
 h1 {
-    color: #1e3a8a;
-}
-h3 {
-    color: #333;
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
-.skills {
-    list-style: none;
-    padding: 0;
-}
-.skills li {
-    background: white;
-    margin: 10px auto;
-    padding: 12px;
-    width: 250px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+p {
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
-form input, form textarea {
-    width: 300px;
-    padding: 10px;
-}
-button {
-    padding: 10px 20px;
-    background-color: #1e3a8a;
+a {
+    text-decoration: none;
+    background: #ff9800;
     color: white;
-    border: none;
-    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
 }
-button:hover {
-    background-color: #0f2557;
+
+a:hover {
+    background: #e68900;
+    transform: scale(1.1);
 }
