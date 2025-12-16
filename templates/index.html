@@ -4,14 +4,29 @@
     <title>Swati Portfolio</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Swati</div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN CONTENT -->
     <div class="container">
-        <h1>Hello, I am Swati</h1>
+        <h1>Welcome to my Portfolio</h1>
+        <p>I am learning Python Flask and Web Development</p>
+
+        <h2>Hello, I am Swati</h2>
         <p>I am learning Python & Flask</p>
 
-        <a href="/about">About Me</a>
-        <a href="#">Contact</a>
+        <a href="/about">About Me</a> |
+        <a href="/contact">Contact</a>
     </div>
 
 </body>
