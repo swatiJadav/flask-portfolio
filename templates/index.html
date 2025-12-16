@@ -2,15 +2,17 @@
 <html>
 <head>
     <title>Swati Portfolio</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<h1>Hello, I am Swati</h1>
-<p>I am learning Python & Flask.</p>
+    <div class="container">
+        <h1>Hello, I am Swati</h1>
+        <p>I am learning Python & Flask</p>
 
-<a href="/contact">Contact Me</a> |
-<a href="/view">View Messages</a>
+        <a href="/about">About Me</a>
+        <a href="#">Contact</a>
+    </div>
 
 </body>
 </html>
